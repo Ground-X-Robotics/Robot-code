@@ -12,7 +12,7 @@ import java.io.*;
 
 @TeleOp(name="Basic: Java Controller", group="ControllerJava")
 
-public class Amalgamation extends LinearOpMode {
+public class robotNetworkController extends LinearOpMode {
     private Socket socket            = null; 
     private ServerSocket server      = null; 
     private DataInputStream in       = null;
